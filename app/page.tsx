@@ -26,7 +26,7 @@ export default function Home() {
                 />
               </aside>
               <aside className="text-sm py-2">
-                <p className="font-bold">Today's Top Hits</p>
+                <p className="font-bold">Today&apos;s Top Hits</p>
                 <p className="text-xs py-2">
                   Dua Lipa is on top of the Hottest 50!
                 </p>
@@ -52,7 +52,7 @@ export default function Home() {
                 />
               </aside>
               <aside className="text-sm py-2">
-                <p className="font-bold">Today's Top Hits</p>
+                <p className="font-bold">Today&apos;s Top Hits</p>
                 <p className="text-xs py-2">
                   Dua Lipa is on top of the Hottest 50!
                 </p>
@@ -78,7 +78,7 @@ export default function Home() {
                 />
               </aside>
               <aside className="text-sm py-2">
-                <p className="font-bold">Today's Top Hits</p>
+                <p className="font-bold">Today&apos;s Top Hits</p>
                 <p className="text-xs py-2">
                   Dua Lipa is on top of the Hottest 50!
                 </p>
@@ -104,7 +104,7 @@ export default function Home() {
                 />
               </aside>
               <aside className="text-sm py-2">
-                <p className="font-bold">Today's Top Hits</p>
+                <p className="font-bold">Today&apos;s Top Hits</p>
                 <p className="text-xs py-2">
                   Dua Lipa is on top of the Hottest 50!
                 </p>
@@ -130,7 +130,7 @@ export default function Home() {
                 />
               </aside>
               <aside className="text-sm py-2">
-                <p className="font-bold">Today's Top Hits</p>
+                <p className="font-bold">Today&apos;s Top Hits</p>
                 <p className="text-xs py-2">
                   Dua Lipa is on top of the Hottest 50!
                 </p>
