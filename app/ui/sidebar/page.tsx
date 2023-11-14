@@ -50,21 +50,21 @@ const menuItems = [
 ];
 const Sidebar = () => {
   return (
-    <div className="p-2 sticky top-0 bg-zinc-950">
+    <div className="p-3 sticky top-0 bg-zinc-950">
       <section className="rounded-md bg-zinc-900  text-white">
-        <div className="flex gap-1 p-2">
+        <div className="flex gap-1 p-3">
           <p>
             <SiSpotify size="1.5rem" />
           </p>
           <p>Sportify</p>
         </div>
-        <div className="flex gap-4 p-2">
+        <div className="flex gap-4 p-3">
           <p>
             <AiFillHome size="1.5rem" />
           </p>
           <p>Home</p>
         </div>
-        <div className="flex  text-gray-400 gap-4 p-2">
+        <div className="flex  text-gray-400 gap-4 p-3">
           <p>
             <SlMagnifier size="1.5rem" />
           </p>
@@ -72,7 +72,7 @@ const Sidebar = () => {
         </div>
       </section>
       <section className="rounded-md bg-zinc-900 text-white">
-        <div className="p-2 mt-3">
+        <div className="p-3 mt-3">
           <section className="flex py-3 text-gray-400 justify-between">
             <div className="flex gap-2">
               <p>
@@ -86,7 +86,7 @@ const Sidebar = () => {
           </section>
           <section>
             <aside className="  h-48 overflow-scroll">
-              <div className="bg-zinc-800 p-3 rounded-md my-2">
+              <div className="bg-zinc-800 p-4 rounded-md my-2">
                 <p className="py-3 font-bold">Create your first playlist</p>
                 <p className="text-xs">It&apos;s easy, we&apos;ll help you</p>
 
@@ -94,7 +94,7 @@ const Sidebar = () => {
                   Create List
                 </button>
               </div>
-              <div className="bg-zinc-800 p-3 rounded-md my-2">
+              <div className="bg-zinc-800 p-4 rounded-md my-2">
                 <p className="py-3 text-sm font-bold">
                   Let&apos;s find some podcast to follow
                 </p>
