@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className=" flex justify-between text-xs font-bold bg-zinc-800 rounded-md my-2">
       <section className="p-2 flex justify-center items-center gap-4">
-        <p className="rounded-full p-3 bg-zinc-900 text-white">
+        <p className="rounded-full p-2 bg-zinc-900 text-white">
           <SlArrowLeft size="1.5rem" />
         </p>
         <p className="rounded-full p-2  bg-zinc-900 text-white">
