@@ -52,49 +52,49 @@ const Sidebar = () => {
   return (
     <div className="p-2 sticky top-0 bg-zinc-950">
       <section className="rounded-md bg-zinc-900  text-white">
-        <div className="flex gap-1 p-3">
+        <div className="flex gap-1 p-2">
           <p>
-            <SiSpotify size="1.5em" />
+            <SiSpotify size="2rem" />
           </p>
           <p>Sportify</p>
         </div>
-        <div className="flex gap-4 p-3">
+        <div className="flex gap-4 p-2">
           <p>
-            <AiFillHome size="1.5em" />
+            <AiFillHome size="2rem" />
           </p>
           <p>Home</p>
         </div>
-        <div className="flex  text-gray-400 gap-4 p-3">
+        <div className="flex  text-gray-400 gap-4 p-2">
           <p>
-            <SlMagnifier size="1.5em" />
+            <SlMagnifier size="2rem" />
           </p>
           <p>Search</p>
         </div>
       </section>
       <section className="rounded-md bg-zinc-900 text-white">
-        <div className="p-3 mt-3">
-          <section className="flex py-4 text-gray-400 justify-between">
+        <div className="p-2 mt-3">
+          <section className="flex py-3 text-gray-400 justify-between">
             <div className="flex gap-2">
               <p>
-                <BiLibrary size="1.5em" />
+                <BiLibrary size="2rem" />
               </p>
               <p>Library</p>
             </div>
             <p>
-              <FaPlus size="1.5em" />
+              <FaPlus size="2rem" />
             </p>
           </section>
           <section>
             <aside className="  h-48 overflow-scroll">
-              <div className="bg-zinc-800 p-3 rounded-md my-2">
-                <p className="py-3 font-bold">Create your first playlist</p>
+              <div className="bg-zinc-800 p-2 rounded-md my-2">
+                <p className="py-2 font-bold">Create your first playlist</p>
                 <p className="text-xs">It's easy, we'll help you</p>
                 <button className="rounded-full mt-3 px-3 py-2 text-xs font-bold bg-white text-black">
                   Create List
                 </button>
               </div>
-              <div className="bg-zinc-800 p-3 rounded-md my-2">
-                <p className="py-3 text-sm font-bold">
+              <div className="bg-zinc-800 p-2 rounded-md my-2">
+                <p className="py-2 text-sm font-bold">
                   Let's find some podcast to follow
                 </p>
                 <p className="text-xs">we'll keep you updated on new episode</p>
@@ -105,7 +105,7 @@ const Sidebar = () => {
             </aside>
           </section>
         </div>
-        <div className="px-2 py-4 m-3">
+        <div className="px-2 py-3 m-3">
           <section className="pb-4 text-gray-400">
             <ul className="flex flex-wrap gap-4 text-[10px]">
               <li>
@@ -130,7 +130,7 @@ const Sidebar = () => {
           </section>
           <section className="py-4">
             <button className="rounded-full flex gap-2 mt-3 px-4 items-center py-2 text-xs font-bold bg-black border text-white">
-              <TbWorld size="1.5em" /> English
+              <TbWorld size="2rem" /> English
             </button>
           </section>
         </div>
