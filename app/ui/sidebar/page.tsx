@@ -86,18 +86,23 @@ const Sidebar = () => {
           </section>
           <section>
             <aside className="  h-48 overflow-scroll">
-              <div className="bg-zinc-800 p-2 rounded-md my-2">
-                <p className="py-2 font-bold">Create your first playlist</p>
-                <p className="text-xs">It's easy, we'll help you</p>
+              <div className="bg-zinc-800 p-3 rounded-md my-2">
+                <p className="py-3 font-bold">Create your first playlist</p>
+                <p className="text-xs">It&apos;s easy, we&apos;ll help you</p>
+             
                 <button className="rounded-full mt-3 px-3 py-2 text-xs font-bold bg-white text-black">
                   Create List
                 </button>
               </div>
-              <div className="bg-zinc-800 p-2 rounded-md my-2">
-                <p className="py-2 text-sm font-bold">
-                  Let's find some podcast to follow
+              <div className="bg-zinc-800 p-3 rounded-md my-2">
+                <p className="py-3 text-sm font-bold">
+                  Let&apos;s find some podcast to follow
                 </p>
-                <p className="text-xs">we'll keep you updated on new episode</p>
+                <p className="text-xs">
+                  we&apos;ll keep you updated on new episode
+
+             
+                </p>
                 <button className="rounded-full mt-3 px-3 py-2 text-xs font-bold bg-white text-black">
                   Browse podcasts
                 </button>
