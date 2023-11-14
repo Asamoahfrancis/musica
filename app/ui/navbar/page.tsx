@@ -3,13 +3,13 @@ import { SlArrowLeft } from "react-icons/sl";
 import { SlArrowRight } from "react-icons/sl";
 const Navbar = () => {
   return (
-    <div className=" flex justify-between text-xs font-bold bg-zinc-800 rounded-md my-2">
+    <div className=" flex justify-between text-xs font-bold bg-zinc-800 p-3 rounded-md my-2">
       <section className="p-2 flex justify-center items-center gap-4">
         <p className="rounded-full p-2 bg-zinc-900 text-white">
-          <SlArrowLeft size="1.5rem" />
+          <SlArrowLeft size="1rem" />
         </p>
         <p className="rounded-full p-2  bg-zinc-900 text-white">
-          <SlArrowRight size="1.5rem" />
+          <SlArrowRight size="1rem" />
         </p>
       </section>
       <section className="flex gap-4 p-2">
