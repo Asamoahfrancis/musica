@@ -4,6 +4,7 @@ import "./globals.css";
 import Sidebar from "./ui/sidebar/page";
 import Navbar from "./ui/navbar/page";
 import Footer from "./ui/footer/page";
+import Banner from "./ui/banner/page";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,14 +25,17 @@ export default function RootLayout({
           <div className="flex-auto bg-zinc-950 w-[24%]">
             <Sidebar />
           </div>
-          <div className="flex-auto  bg-zinc-950 w-4/5">
+          <div className="flex-auto   bg-zinc-950 w-4/5">
             <Navbar />
             {children}
+            <footer className="relative">
+              <Footer />
+            </footer>
           </div>
         </main>
-        <footer className="relative">
-          <Footer />
-        </footer>
+        <div className="relative">
+          <Banner />
+        </div>
       </body>
     </html>
   );
