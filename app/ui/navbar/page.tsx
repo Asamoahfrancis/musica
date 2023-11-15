@@ -9,7 +9,11 @@ const Navbar = () => {
   const currentPath = usePathname();
   return (
     <NextUIProvider>
-      <div className=" flex justify-between text-xs sticky top-0  z-40 font-bold bg-zinc-900 p-3 rounded-md my-2">
+      <div
+        className={`flex justify-between text-xs sticky top-0  z-40 font-bold bg-zinc-900 ${
+          currentPath === "/playlist/1020" && "navbar"
+        } p-3 rounded-md my-2`}
+      >
         <section className="p-2 flex justify-between items-center  w-96 gap-4">
           <div className="flex justify-center items-center">
             <p className="rounded-full p-2 bg-zinc-900 text-white">

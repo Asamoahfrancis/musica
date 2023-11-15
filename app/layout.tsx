@@ -24,7 +24,7 @@ export default function RootLayout({
           <div className="col-span-2 bg-zinc-950 ">
             <Sidebar />
           </div>
-          <div className="bg-zinc-950 col-span-8">
+          <div className="relative bg-zinc-950 col-span-8">
             <Navbar />
             {children}
             <footer className="relative">

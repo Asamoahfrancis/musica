@@ -10,7 +10,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 const Sidebar = () => {
   const currentPath = usePathname();
-  console.log(currentPath);
   return (
     <div className="p-3 sticky top-0 bg-zinc-950">
       <section className="rounded-md bg-zinc-900  text-white">
