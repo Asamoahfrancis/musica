@@ -21,21 +21,21 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className="flex">
-          <div className="flex-auto bg-zinc-950 w-[24%]">
+        <main className="grid grid-cols-10">
+          <div className="col-span-2 bg-zinc-950 ">
             <Sidebar />
           </div>
-          <div className="flex-auto   bg-zinc-950 w-4/5">
+          <div className="bg-zinc-950 col-span-8">
             <Navbar />
             {children}
             <footer className="relative">
               <Footer />
             </footer>
           </div>
+          <div className=" fixed left-0  bottom-0 w-[100%] ">
+            <Banner />
+          </div>
         </main>
-        <div className="relative">
-          <Banner />
-        </div>
       </body>
     </html>
   );
