@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { SlMagnifier } from "react-icons/sl";
 import { BiLibrary } from "react-icons/bi";
@@ -6,69 +7,51 @@ import { FaPlus } from "react-icons/fa6";
 import { AiFillHome } from "react-icons/ai";
 import { TbWorld } from "react-icons/tb";
 import Link from "next/link";
-const menuItems = [
-  {
-    title: "homepages",
-    list: [
-      {
-        title: "Spotify",
-        path: "/",
-        icon: <SiSpotify />,
-      },
-      {
-        title: "Home",
-        path: "/",
-        icon: <AiFillHome />,
-      },
-      {
-        title: "Search",
-        path: "/search",
-        icon: <SlMagnifier />,
-      },
-    ],
-  },
-  {
-    title: "librarypages",
-    list: [
-      {
-        title: "Your Library",
-        path: "",
-        icon: <BiLibrary />,
-      },
-      {
-        title: "plus",
-        path: "/playlist",
-        icon: <FaPlus />,
-      },
-      {
-        title: "Podcast",
-        path: "/podcast",
-        icon: <SiSpotify />,
-      },
-    ],
-  },
-];
+import { usePathname } from "next/navigation";
 const Sidebar = () => {
+  const currentPath = usePathname();
+  console.log(currentPath);
   return (
     <div className="p-3 sticky top-0 bg-zinc-950">
       <section className="rounded-md bg-zinc-900  text-white">
         <div className="flex gap-1 p-3">
-          <p>
+          <Link href="/" className="text-white">
             <SiSpotify size="1.5rem" />
-          </p>
-          <p>Sportify</p>
+          </Link>
+          <Link href={"/"} className="text-white">
+            Sportify
+          </Link>
         </div>
         <div className="flex gap-4 p-3">
-          <p>
+          <p
+            className={`${currentPath == "/" ? "text-white" : "text-gray-400"}`}
+          >
             <AiFillHome size="1.5rem" />
           </p>
-          <p>Home</p>
+          <Link
+            href="/"
+            className={`${currentPath == "/" ? "text-white" : "text-gray-400"}`}
+          >
+            Home
+          </Link>
         </div>
         <div className="flex  text-gray-400 gap-4 p-3">
-          <p>
+          <Link
+            href={"/search"}
+            className={`${
+              currentPath == "/search" ? "text-white" : "text-gray-400"
+            }`}
+          >
             <SlMagnifier size="1.5rem" />
-          </p>
-          <p>Search</p>
+          </Link>
+          <Link
+            href={"/search"}
+            className={`${
+              currentPath == "/search" ? "text-white" : "text-gray-400"
+            }`}
+          >
+            Search
+          </Link>
         </div>
       </section>
       <section className="rounded-md bg-zinc-900 text-white">

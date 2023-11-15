@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { FaCirclePlay } from "react-icons/fa6";
+import Link from "next/link";
 export default function Home() {
   return (
     <main className="text-white overflow-scroll bg-zinc-900 p-4">
@@ -8,7 +9,7 @@ export default function Home() {
         <p className="text-xs tracking-widest ">Show all</p>
       </section>
       <section className=" grid grid-cols-4 mt-5 gap-5">
-        <section>
+        <Link href={"/playlist/1020"}>
           <div>
             <div className="relative p-4 rounded-xl group bg-zinc-800 hover:bg-zinc-700 duration-700 ">
               <div className="absolute right-[12%] text-green-500  duration-100 invisible group-hover:visible hover:scale-110  z-10 bottom-[35%] ">
@@ -16,7 +17,7 @@ export default function Home() {
               </div>
               <aside className="relative h-52">
                 <Image
-                  src="/1.jpg"
+                  src="/4.jpeg"
                   fill={true}
                   alt="Picture of the author"
                   className="rounded-lg"
@@ -33,9 +34,9 @@ export default function Home() {
               </aside>
             </div>
           </div>
-        </section>
+        </Link>
 
-        <section>
+        <Link href={"/playlist/3020"}>
           <div>
             <div className="relative p-4 rounded-xl group bg-zinc-800 hover:bg-zinc-700 duration-700 ">
               <div className="absolute right-[12%] text-green-500  duration-100 invisible group-hover:visible hover:scale-110  z-10 bottom-[35%] ">
@@ -43,7 +44,7 @@ export default function Home() {
               </div>
               <aside className="relative h-52">
                 <Image
-                  src="/1.jpg"
+                  src="/2.jpg"
                   fill={true}
                   alt="Picture of the author"
                   className="rounded-lg"
@@ -60,9 +61,9 @@ export default function Home() {
               </aside>
             </div>
           </div>
-        </section>
+        </Link>
 
-        <section>
+        <Link href={"/playlist/6040"}>
           <div>
             <div className="relative p-4 rounded-xl group bg-zinc-800 hover:bg-zinc-700 duration-700 ">
               <div className="absolute right-[12%] text-green-500  duration-100 invisible group-hover:visible hover:scale-110  z-10 bottom-[35%] ">
@@ -70,7 +71,7 @@ export default function Home() {
               </div>
               <aside className="relative h-52">
                 <Image
-                  src="/1.jpg"
+                  src="/3.webp"
                   fill={true}
                   alt="Picture of the author"
                   className="rounded-lg"
@@ -87,9 +88,9 @@ export default function Home() {
               </aside>
             </div>
           </div>
-        </section>
+        </Link>
 
-        <section>
+        <Link href={"/playlist/8463"}>
           <div>
             <div className="relative p-4 rounded-xl group bg-zinc-800 hover:bg-zinc-700 duration-700 ">
               <div className="absolute right-[12%] text-green-500  duration-100 invisible group-hover:visible hover:scale-110  z-10 bottom-[35%] ">
@@ -114,7 +115,7 @@ export default function Home() {
               </aside>
             </div>
           </div>
-        </section>
+        </Link>
       </section>
     </main>
   );

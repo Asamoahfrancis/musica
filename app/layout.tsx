@@ -5,7 +5,6 @@ import Sidebar from "./ui/sidebar/page";
 import Navbar from "./ui/navbar/page";
 import Footer from "./ui/footer/page";
 import Banner from "./ui/banner/page";
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {

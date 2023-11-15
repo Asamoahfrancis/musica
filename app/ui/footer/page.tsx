@@ -26,13 +26,13 @@ const Footer = () => {
           <p>Free mobile App</p>
         </section>
         <section className="flex gap-4  items-start">
-          <p className=" hover:bg-zinc-700 bg-zinc-800 rounded-full p-3">
+          <p className=" hover:bg-zinc-700 bg-zinc-800 rounded-full p-2">
             <IoLogoInstagram size="1.5em" />
           </p>
-          <p className=" hover:bg-zinc-700 bg-zinc-800 rounded-full p-3">
+          <p className=" hover:bg-zinc-700 bg-zinc-800 rounded-full p-2">
             <FaTwitter size="1.5em" />
           </p>
-          <p className=" hover:bg-zinc-700 bg-zinc-800 rounded-full p-3">
+          <p className=" hover:bg-zinc-700 bg-zinc-800 rounded-full p-2">
             <FaFacebook size="1.5em" />
           </p>
         </section>
