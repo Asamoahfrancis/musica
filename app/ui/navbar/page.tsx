@@ -9,7 +9,7 @@ const Navbar = () => {
   const currentPath = usePathname();
   return (
     <div
-      className={`flex justify-between text-xs sticky top-0 z-50   font-bold  bg-black/60 ${
+      className={`flex md:hidden justify-between text-xs sticky top-0 z-50   font-bold  bg-black/60 ${
         currentPath === "/" && "navbar"
       }   ${currentPath === "/" && "rounded-md"} p-3  my-2`}
     >

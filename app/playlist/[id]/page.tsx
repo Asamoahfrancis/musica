@@ -25,7 +25,9 @@ const Ids = (params: { params: { id: string } }) => {
           <div>
             <p>Playlist</p>
           </div>
-          <div className="text-8xl my-5 font-bold">Today&apos;s Top Hits</div>
+          <div className="text-8xl my-5 font-bold md:text-4xl">
+            Today&apos;s Top Hits
+          </div>
           <div className="my-3 text-gray-300">
             Dua lipa is on top of the hottest 50!
           </div>

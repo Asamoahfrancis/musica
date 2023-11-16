@@ -25,7 +25,7 @@ const Footer = () => {
           <p>For Support </p>
           <p>Free mobile App</p>
         </section>
-        <section className="flex gap-4  items-start">
+        <section className="flex gap-4 md:flex-wrap  items-start">
           <p className=" hover:bg-zinc-700 bg-zinc-800 rounded-full p-2">
             <IoLogoInstagram size="1.5em" />
           </p>

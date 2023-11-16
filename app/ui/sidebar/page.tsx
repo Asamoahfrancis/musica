@@ -8,28 +8,33 @@ import { AiFillHome } from "react-icons/ai";
 import { TbWorld } from "react-icons/tb";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { GiHamburgerMenu } from "react-icons/gi";
 const Sidebar = () => {
   const currentPath = usePathname();
   return (
     <div className="p-3 sticky top-0 bg-zinc-950">
-      <section className="rounded-md bg-zinc-900  text-white">
-        <div className="flex gap-1 p-3">
+      <section className="rounded-md bg-zinc-900 md:p-2 md:flex md:items-center md:gap-4  text-white">
+        <div className="flex gap-1 p-3 md:mr-auto">
           <Link href="/" className="text-white">
             <SiSpotify size="1.5rem" />
           </Link>
-          <Link href={"/"} className="text-white">
+          <Link href={"/"} className="text-white md:hidden">
             Sportify
           </Link>
         </div>
         <div className="flex gap-4 p-3">
           <p
-            className={`${currentPath == "/" ? "text-white" : "text-gray-400"}`}
+            className={`md:hidden ${
+              currentPath == "/" ? "text-white" : "text-gray-400"
+            }`}
           >
             <AiFillHome size="1.5rem" />
           </p>
           <Link
             href="/"
-            className={`${currentPath == "/" ? "text-white" : "text-gray-400"}`}
+            className={`md:hidden ${
+              currentPath == "/" ? "text-white" : "text-gray-400"
+            }`}
           >
             Home
           </Link>
@@ -45,15 +50,23 @@ const Sidebar = () => {
           </Link>
           <Link
             href={"/search"}
-            className={`${
+            className={`md:hidden ${
               currentPath == "/search" ? "text-white" : "text-gray-400"
             }`}
           >
             Search
           </Link>
         </div>
+        <div className="hidden md:block text-black">
+          <button className="bg-white py-2 px-6 font-bold rounded-full">
+            Open App
+          </button>
+        </div>
+        <div className="hidden md:block text-white">
+          <GiHamburgerMenu size="1.5rem" />
+        </div>
       </section>
-      <section className="rounded-md bg-zinc-900 text-white">
+      <section className="rounded-md md:hidden bg-zinc-900 text-white">
         <div className="p-3 mt-3">
           <section className="flex py-3 text-gray-400 justify-between">
             <div className="flex gap-2">

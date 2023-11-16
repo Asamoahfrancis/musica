@@ -12,7 +12,7 @@ export default function Home() {
           <p className="text-2xl">Spotify Playlists</p>
           <p className="text-xs tracking-widest ">Show all</p>
         </section>
-        <section className=" grid grid-cols-4 mt-5 gap-5">
+        <section className=" grid grid-cols-4 md:grid-cols-2 mt-5 gap-5">
           <Link href={"/playlist/1020"}>
             <div>
               <div className="relative p-4 rounded-xl group bg-zinc-800 hover:bg-zinc-700 duration-700 ">

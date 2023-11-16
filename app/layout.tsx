@@ -20,8 +20,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className="grid grid-cols-10">
-          <div className="col-span-2 bg-zinc-950 ">
+        <main className="grid grid-cols-10  md:block">
+          <div className="col-span-2   bg-zinc-950 ">
             <Sidebar />
           </div>
           <div className="relative z-[1] bg-zinc-950 col-span-8">
