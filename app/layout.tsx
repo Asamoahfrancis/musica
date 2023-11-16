@@ -24,14 +24,14 @@ export default function RootLayout({
           <div className="col-span-2 bg-zinc-950 ">
             <Sidebar />
           </div>
-          <div className="relative bg-zinc-950 col-span-8">
+          <div className="relative z-[1] bg-zinc-950 col-span-8">
             <Navbar />
             {children}
             <footer className="relative">
               <Footer />
             </footer>
           </div>
-          <div className=" fixed left-0  bottom-0 w-[100%] ">
+          <div className=" fixed z-50 left-0  bottom-0 w-[100%] ">
             <Banner />
           </div>
         </main>
