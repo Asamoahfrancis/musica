@@ -7,15 +7,15 @@ import { NextUIProvider } from "@nextui-org/react";
 export default function Home() {
   return (
     <NextUIProvider>
-      <main className="text-white bg-zinc-900 p-4">
+      <main className="text-white bg-pink-900 p-4">
         <section className="flex justify-between">
-          <p className="text-2xl">Spotify Playlists</p>
+          <p className="text-2xl">Musica Playlists</p>
           <p className="text-xs tracking-widest ">Show all</p>
         </section>
         <section className=" grid grid-cols-4 md:grid-cols-2 mt-5 gap-5">
           <Link href={"/playlist/1020"}>
             <div>
-              <div className="relative p-4 rounded-xl group bg-zinc-800 hover:bg-zinc-700 duration-700 ">
+              <div className="relative p-4 rounded-xl group bg-pink-800 hover:bg-pink-700 duration-700 ">
                 <div className="absolute right-[12%] text-green-500  duration-100 invisible group-hover:visible hover:scale-110  z-10 bottom-[35%] ">
                   <FaCirclePlay size="3rem" />
                 </div>
@@ -42,7 +42,7 @@ export default function Home() {
 
           <Link href={"/playlist/3020"}>
             <div>
-              <div className="relative p-4 rounded-xl group bg-zinc-800 hover:bg-zinc-700 duration-700 ">
+              <div className="relative p-4 rounded-xl group bg-pink-800 hover:bg-pink-700 duration-700 ">
                 <div className="absolute right-[12%] text-green-500  duration-100 invisible group-hover:visible hover:scale-110  z-10 bottom-[35%] ">
                   <FaCirclePlay size="3rem" />
                 </div>
@@ -69,7 +69,7 @@ export default function Home() {
 
           <Link href={"/playlist/6040"}>
             <div>
-              <div className="relative p-4 rounded-xl group bg-zinc-800 hover:bg-zinc-700 duration-700 ">
+              <div className="relative p-4 rounded-xl group bg-pink-800 hover:bg-pink-700 duration-700 ">
                 <div className="absolute right-[12%] text-green-500  duration-100 invisible group-hover:visible hover:scale-110  z-10 bottom-[35%] ">
                   <FaCirclePlay size="3rem" />
                 </div>
@@ -96,7 +96,7 @@ export default function Home() {
 
           <Link href={"/playlist/8463"}>
             <div>
-              <div className="relative p-4 rounded-xl group bg-zinc-800 hover:bg-zinc-700 duration-700 ">
+              <div className="relative p-4 rounded-xl group bg-pink-800 hover:bg-pink-700 duration-700 ">
                 <div className="absolute right-[12%] text-green-500  duration-100 invisible group-hover:visible hover:scale-110  z-10 bottom-[35%] ">
                   <FaCirclePlay size="3rem" />
                 </div>

@@ -10,7 +10,7 @@ const Inputsearch = () => {
         mainWrapper: "h-full",
         input: "text-small",
         inputWrapper:
-          "h-full font-normal text-white rounded-full  bg-zinc-800 ",
+          "h-full font-normal text-white rounded-full  bg-pink-800 ",
       }}
       placeholder="what do you want to listen to?"
       size="sm"

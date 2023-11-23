@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .navbar {
-  @apply bg-zinc-900;
+  @apply bg-pink-900;
 }

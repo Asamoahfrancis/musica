@@ -2,7 +2,7 @@
 import React from "react";
 import { SlMagnifier } from "react-icons/sl";
 import { BiLibrary } from "react-icons/bi";
-import { SiSpotify } from "react-icons/si";
+import { MdLibraryMusic } from "react-icons/md";
 import { FaPlus } from "react-icons/fa6";
 import { AiFillHome } from "react-icons/ai";
 import { TbWorld } from "react-icons/tb";
@@ -12,14 +12,14 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const Sidebar = () => {
   const currentPath = usePathname();
   return (
-    <div className="p-3 sticky top-0 bg-zinc-950">
-      <section className="rounded-md bg-zinc-900 md:p-2 md:flex md:items-center md:gap-4  text-white">
+    <div className="p-3 sticky top-0 bg-pink-950">
+      <section className="rounded-md bg-pink-900 md:p-2 md:flex md:items-center md:gap-4  text-white">
         <div className="flex gap-1 p-3 md:mr-auto">
           <Link href="/" className="text-white">
-            <SiSpotify size="1.5rem" />
+            <MdLibraryMusic size="1.5rem" />
           </Link>
           <Link href={"/"} className="text-white md:hidden">
-            Sportify
+            Musica
           </Link>
         </div>
         <div className="flex gap-4 p-3">
@@ -66,7 +66,7 @@ const Sidebar = () => {
           <GiHamburgerMenu size="1.5rem" />
         </div>
       </section>
-      <section className="rounded-md md:hidden bg-zinc-900 text-white">
+      <section className="rounded-md md:hidden bg-pink-900 text-white">
         <div className="p-3 mt-3">
           <section className="flex py-3 text-gray-400 justify-between">
             <div className="flex gap-2">
@@ -81,7 +81,7 @@ const Sidebar = () => {
           </section>
           <section>
             <aside className="  h-48 overflow-scroll">
-              <div className="bg-zinc-800 p-4 rounded-md my-2">
+              <div className="bg-pink-800 p-4 rounded-md my-2">
                 <p className="py-3 font-bold">Create your first playlist</p>
                 <p className="text-xs">It&apos;s easy, we&apos;ll help you</p>
 
@@ -89,7 +89,7 @@ const Sidebar = () => {
                   Create List
                 </button>
               </div>
-              <div className="bg-zinc-800 p-4 rounded-md my-2">
+              <div className="bg-pink-800 p-4 rounded-md my-2">
                 <p className="py-3 text-sm font-bold">
                   Let&apos;s find some podcast to follow
                 </p>

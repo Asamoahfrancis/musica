@@ -2,7 +2,7 @@ import React from "react";
 
 const Search = () => {
   return (
-    <main className="text-white overflow-scroll bg-zinc-900 p-4">
+    <main className="text-white overflow-scroll bg-pink-900 p-4">
       <section>
         <p className="text-2xl">Browse all</p>
       </section>
