@@ -12,7 +12,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const Sidebar = () => {
   const currentPath = usePathname();
   return (
-    <div className="p-3 sticky top-0 bg-pink-950">
+    <div className="p-3 sticky top-0 bg-pink-950 min-h-screen">
       <section className="rounded-md bg-pink-900 md:p-2 md:flex md:items-center md:gap-4  text-white">
         <div className="flex gap-1 p-3 md:mr-auto">
           <Link href="/" className="text-white">
@@ -103,7 +103,7 @@ const Sidebar = () => {
             </aside>
           </section>
         </div>
-        <div className="px-2 py-3 m-3">
+        <div className="px-2 py-6 m-3">
           <section className="pb-4 text-gray-400">
             <ul className="flex flex-wrap gap-4 text-[10px]">
               <li>

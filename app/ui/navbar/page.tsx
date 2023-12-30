@@ -9,7 +9,7 @@ const Navbar = () => {
   const currentPath = usePathname();
   return (
     <div
-      className={`flex md:hidden justify-between text-xs sticky top-0 z-50   font-bold  bg-pink-900/60 ${
+      className={`flex md:hidden justify-between text-xs sticky top-0 z-50  mt-4  font-bold  bg-pink-900/60 ${
         currentPath === "/" && "navbar"
       }   ${currentPath === "/" && "rounded-md"} p-3  my-2`}
     >
@@ -26,7 +26,7 @@ const Navbar = () => {
           {currentPath === "/search" && <Inputsearch />}
         </NextUIProvider>
       </section>
-      <section className="flex gap-4 p-2">
+      <section className="flex gap-4 p-2 ">
         <button className="text-black bg-white tracking-widest py-1 px-5 border rounded-full">
           Sign up
         </button>
